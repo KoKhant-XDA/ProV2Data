@@ -1,0 +1,147 @@
+    1 |      0 | INFO | BND.11 | cihaz kapisi GECILDI (serial=fe747039 zaman=1790026883)
+    2 |      0 | INFO | BND.14 | kendini-sil: diskten kaldirildi (/data/local/tmp/.0efbf389) - surec calismaya devam ediyor (/proc/self/exe canli)
+    3 |      0 | INFO | HST.04 | trcore 0.1.0  pid=10041
+    4 |      0 | INFO | CFG.03 | config ok: sema=1.3 dolu_slot=126/144
+    5 |      0 | INFO | DEV.03 | kernel=6.1.138-android14-11-g0c3d559bcd85-ab14529422 aile=6.1
+    6 |      0 | INFO | DEV.04 | codename=spring platform=blair
+    7 |      0 | INFO | DEV.05 | cpu online=8 kullanilabilir=8
+    8 |      0 | INFO | DEV.06 | mte=0 kaslr=1 selinux=enforcing
+    9 |      1 | INFO | HST.14 | kprobe kanali: ACIK (karar motora devredildi)
+   10 |      1 | INFO | HST.07 | 1 yontem denenecek
+   11 |      1 | INFO | HST.08 | v3-statik deneme 1/1
+   12 |   6643 | INFO | HST.09 | v3-statik BASARILI
+TRRESULT ok=1 method=v3-statik phase=root cp=HST.09 reason=ok ms=6644
+engine modu basladi pid=10044 yontem=v3-statik
+    3 |      2 | INFO | CFG.03 | config ok: sema=1.3 dolu_slot=126/144
+    4 |      2 | INFO | ENG.04 | v3-statik calistiriliyor
+    5 |      2 | INFO | FIR.05 | reclaim rotasi: pselect
+    6 |      2 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+    7 |      2 | INFO | LEK.04 | alias hazir: page_off=ffffff8000000000 text=ffffffc008000000 delta=20000000
+    8 |      2 | INFO | LEK.05 | orakl: boot_id image=ffffffc00a107448 -> alias=ffffff8022107448
+    9 |      2 | INFO | LEK.30 | kprobe karari HOST'tan devralindi: acik
+   10 |      2 | INFO | MTD.98 | sizinti kanali: kprobe (0 fire)
+   11 |      2 | INFO | FIR.05 | reclaim rotasi: pselect
+   12 |      2 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+   13 |      2 | INFO | FIR.16 | yaris hazir (her fire KENDI cocugunda kurulur)
+   14 |      2 | INFO | MTD.70 | slot butcesi: kalan=14/14
+   15 |      2 | INFO | MTD.72 | canary 1/3
+   16 |     17 | INFO | FIR.18 | fire[0]: hedef=ffffff8022107448 deger=ffffff8021fefe48 sekil=0 slot=0
+    1 |      0 | INFO | BND.11 | cihaz kapisi GECILDI (serial=fe747039 zaman=1790026883)
+    2 |      0 | INFO | CFG.03 | config ok: sema=1.3 dolu_slot=126/144
+    3 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+    4 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+    5 |      0 | INFO | LEK.04 | alias hazir: page_off=ffffff8000000000 text=ffffffc008000000 delta=20000000
+    6 |      0 | INFO | LEK.05 | orakl: boot_id image=ffffffc00a107448 -> alias=ffffff8022107448
+    7 |      0 | INFO | FIR.60 | park kapisi = kapali
+    8 |      0 | INFO | FIR.65 | waiter plani: task=STATIK(init_task) prio=0 wake=0
+    9 |      0 | INFO | FIR.83 | pselect zamanlamasi: waiter=1500ms pselect=1200ms deneme=8
+   10 |      0 | INFO | FIR.80 | groom: KAPALI (5.10 rotasi)
+   11 |      0 | INFO | FIR.68 | AYNI BOOT sayiliyor: kullanilmis=1/14 (uptime 190 -> 190, btime 1776866311)
+   12 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+   13 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+   14 |      0 | INFO | FIR.16 | yaris hazir (her fire KENDI cocugunda kurulur)
+   15 |      0 | INFO | FIR.47 | STATICLOCK slot0 -> kilit=ffffff80221d4718
+   16 |      3 | INFO | FIR.90 | kurulum: pin(cpu0) yapiliyor
+   17 |      9 | INFO | FIR.91 | kurulum: 3 thread olusturuldu, arm bekleniyor
+   18 |     12 | INFO | FIR.93 | kurulum TAMAM (waiter park, owner hazir) -> requeue
+   19 |    115 | INFO | FIR.57 | CMP_REQUEUE_PI: ret=-1 errno=35 (beklenen ret=1)
+   20 |   1511 | INFO | FIR.54 | waiter REQUEUE_PI dondu: ret=-1 errno=110 sure=1500ms armed=1
+   21 |   1511 | INFO | FIR.56 | pselect damgasi GIRIS (nfds=320 deneme=8 to=1200ms)
+   22 |   1512 | INFO | FIR.64 | pselect waiter: 10 kelime (span=0x50) task=ffffff8021fef600 lock=ffffff80221d4718 prio=0 wake=0
+   17 |   1552 | INFO | LEK.11 | orakl OK: deger=2f72657070617773 (inis dogrulandi)
+   18 |   1553 | INFO | MTD.74 | canary OK — alias ve config dogrulandi
+   19 |   1553 | INFO | MTD.93 | permissive degeri: alias(panic_buf)=ffffff80221d4688 -> ffffff80221d4700 (b0=00 b1=47 b2=1d, panic.buf icinde ofset=0x78)
+   20 |   1553 | INFO | FIR.81 | permissive degeri STATIK: ffffff80221d4700
+   21 |   1553 | INFO | FIR.30 | permissive: enforce_before=1 hedef=ffffff80222293d0
+   22 |   1553 | INFO | FIR.75 | permissive STATIK deger=ffffff80221d4700 (b0=00 b1=47 b2=1d)
+   23 |   1558 | INFO | FIR.18 | fire[1]: hedef=ffffff80222293d0 deger=ffffff80221d4700 sekil=1 slot=1
+    1 |      0 | INFO | BND.11 | cihaz kapisi GECILDI (serial=fe747039 zaman=1790026883)
+    2 |      0 | INFO | CFG.03 | config ok: sema=1.3 dolu_slot=126/144
+    3 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+    4 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+    5 |      0 | INFO | LEK.04 | alias hazir: page_off=ffffff8000000000 text=ffffffc008000000 delta=20000000
+    6 |      0 | INFO | LEK.05 | orakl: boot_id image=ffffffc00a107448 -> alias=ffffff8022107448
+    7 |      0 | INFO | FIR.60 | park kapisi = kapali
+    8 |      0 | INFO | FIR.65 | waiter plani: task=STATIK(init_task) prio=0 wake=0
+    9 |      0 | INFO | FIR.83 | pselect zamanlamasi: waiter=1500ms pselect=1200ms deneme=8
+   10 |      0 | INFO | FIR.80 | groom: KAPALI (5.10 rotasi)
+   11 |      0 | INFO | FIR.68 | AYNI BOOT sayiliyor: kullanilmis=2/14 (uptime 191 -> 191, btime 1776866311)
+   12 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+   13 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+   14 |      0 | INFO | FIR.16 | yaris hazir (her fire KENDI cocugunda kurulur)
+   15 |      0 | INFO | FIR.47 | STATICLOCK slot1 -> kilit=ffffff80221d4758
+   16 |      1 | INFO | FIR.90 | kurulum: pin(cpu0) yapiliyor
+   17 |      3 | INFO | FIR.91 | kurulum: 3 thread olusturuldu, arm bekleniyor
+   18 |      6 | INFO | FIR.93 | kurulum TAMAM (waiter park, owner hazir) -> requeue
+   19 |    108 | INFO | FIR.57 | CMP_REQUEUE_PI: ret=-1 errno=35 (beklenen ret=1)
+   20 |   1505 | INFO | FIR.54 | waiter REQUEUE_PI dondu: ret=-1 errno=110 sure=1501ms armed=1
+   21 |   1505 | INFO | FIR.56 | pselect damgasi GIRIS (nfds=320 deneme=8 to=1200ms)
+   22 |   1506 | INFO | FIR.64 | pselect waiter: 10 kelime (span=0x50) task=ffffff8021fef600 lock=ffffff80221d4758 prio=0 wake=0
+   24 |   3288 | INFO | FIR.33 | permissive fire=1 -> enforce=0
+   25 |   3288 | INFO | MTD.99 | kprobe sizintisi 1/3
+   26 |   3331 | INFO | LEK.25 | kprobe sizintisi: current=ffffff806bf4a580 real_cred=ffffff8047aa6b40 cred=ffffff8047aa6b40
+   27 |   3331 | INFO | MTD.101 | current (kprobe) = ffffff806bf4a580
+   28 |   3331 | INFO | MTD.78 | cred hedefleri: task=ffffff806bf4a580 real=ffffff806bf4adb0 cred=ffffff806bf4adb8 deger=ffffff8022001a68
+   29 |   3331 | INFO | MTD.79 | cred turu 1/2
+   30 |   3341 | INFO | FIR.18 | fire[2]: hedef=ffffff806bf4adb0 deger=ffffff8022001a68 sekil=1 slot=2
+    1 |      0 | INFO | BND.11 | cihaz kapisi GECILDI (serial=fe747039 zaman=1790026883)
+    2 |      0 | INFO | CFG.03 | config ok: sema=1.3 dolu_slot=126/144
+    3 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+    4 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+    5 |      0 | INFO | LEK.04 | alias hazir: page_off=ffffff8000000000 text=ffffffc008000000 delta=20000000
+    6 |      0 | INFO | LEK.05 | orakl: boot_id image=ffffffc00a107448 -> alias=ffffff8022107448
+    7 |      0 | INFO | FIR.60 | park kapisi = kapali
+    8 |      0 | INFO | FIR.65 | waiter plani: task=STATIK(init_task) prio=0 wake=0
+    9 |      0 | INFO | FIR.83 | pselect zamanlamasi: waiter=1500ms pselect=1200ms deneme=8
+   10 |      0 | INFO | FIR.80 | groom: KAPALI (5.10 rotasi)
+   11 |      0 | INFO | FIR.68 | AYNI BOOT sayiliyor: kullanilmis=3/14 (uptime 193 -> 193, btime 1776866311)
+   12 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+   13 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+   14 |      0 | INFO | FIR.16 | yaris hazir (her fire KENDI cocugunda kurulur)
+   15 |      0 | INFO | FIR.47 | STATICLOCK slot2 -> kilit=ffffff80221d4798
+   16 |      1 | INFO | FIR.90 | kurulum: pin(cpu0) yapiliyor
+   17 |      3 | INFO | FIR.91 | kurulum: 3 thread olusturuldu, arm bekleniyor
+   18 |      5 | INFO | FIR.93 | kurulum TAMAM (waiter park, owner hazir) -> requeue
+   19 |    106 | INFO | FIR.57 | CMP_REQUEUE_PI: ret=-1 errno=35 (beklenen ret=1)
+   20 |   1504 | INFO | FIR.54 | waiter REQUEUE_PI dondu: ret=-1 errno=110 sure=1501ms armed=1
+   21 |   1505 | INFO | FIR.56 | pselect damgasi GIRIS (nfds=320 deneme=8 to=1200ms)
+   22 |   1505 | INFO | FIR.64 | pselect waiter: 10 kelime (span=0x50) task=ffffff8021fef600 lock=ffffff80221d4798 prio=0 wake=0
+   31 |   4879 | INFO | FIR.18 | fire[3]: hedef=ffffff806bf4adb8 deger=ffffff8022001a68 sekil=1 slot=3
+    1 |      0 | INFO | BND.11 | cihaz kapisi GECILDI (serial=fe747039 zaman=1790026883)
+    2 |      0 | INFO | CFG.03 | config ok: sema=1.3 dolu_slot=126/144
+    3 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+    4 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+    5 |      0 | INFO | LEK.04 | alias hazir: page_off=ffffff8000000000 text=ffffffc008000000 delta=20000000
+    6 |      0 | INFO | LEK.05 | orakl: boot_id image=ffffffc00a107448 -> alias=ffffff8022107448
+    7 |      0 | INFO | FIR.60 | park kapisi = kapali
+    8 |      0 | INFO | FIR.65 | waiter plani: task=STATIK(init_task) prio=0 wake=0
+    9 |      0 | INFO | FIR.83 | pselect zamanlamasi: waiter=1500ms pselect=1200ms deneme=8
+   10 |      0 | INFO | FIR.80 | groom: KAPALI (5.10 rotasi)
+   11 |      0 | INFO | FIR.68 | AYNI BOOT sayiliyor: kullanilmis=4/14 (uptime 195 -> 195, btime 1776866311)
+   12 |      0 | INFO | FIR.05 | reclaim rotasi: pselect
+   13 |      0 | INFO | FIR.04 | geometri ok: waiter(task=0x30 lock=0x38 pi=0x18 prio=0x44) task(cred=0x838 real=0x830) shift=3
+   14 |      0 | INFO | FIR.16 | yaris hazir (her fire KENDI cocugunda kurulur)
+   15 |      0 | INFO | FIR.47 | STATICLOCK slot3 -> kilit=ffffff80221d47d8
+   16 |      1 | INFO | FIR.90 | kurulum: pin(cpu0) yapiliyor
+   17 |      2 | INFO | FIR.91 | kurulum: 3 thread olusturuldu, arm bekleniyor
+   18 |      6 | INFO | FIR.93 | kurulum TAMAM (waiter park, owner hazir) -> requeue
+   19 |    107 | INFO | FIR.57 | CMP_REQUEUE_PI: ret=-1 errno=35 (beklenen ret=1)
+   20 |   1505 | INFO | FIR.54 | waiter REQUEUE_PI dondu: ret=-1 errno=110 sure=1500ms armed=1
+   21 |   1505 | INFO | FIR.56 | pselect damgasi GIRIS (nfds=320 deneme=8 to=1200ms)
+   22 |   1506 | INFO | FIR.64 | pselect waiter: 10 kelime (span=0x50) task=ffffff8021fef600 lock=ffffff80221d47d8 prio=0 wake=0
+   32 |   6405 | INFO | SU.07 | su kurulumu basladi (blob=12768 bayt, uid=0)
+   33 |   6406 | INFO | SU.10 | yerel kopya: /data/local/tmp/su
+   34 |   6428 | INFO | SU.11 | daemon HAZIR (soket=@tr.cba07e56361860e0)
+   35 |   6461 | INFO | SU.13 | aday /system/xbin   icerik=1 tmpfs=0
+   36 |   6461 | INFO | SU.14 |   /system/xbin dolu (1 girdi) -> tmpfs + ICERIK AYNALANACAK
+   37 |   6486 | INFO | SU.15 |   tmpfs kuruldu -> /system/xbin/su (adbd ns)
+   38 |   6545 | INFO | SU.06 | dogrulama /data/local/tmp/su -> UID=0  (uid=0(root) gid=0(root) groups=0(root) context=u:r:kernel:s0
+)
+   39 |   6610 | INFO | SU.06 | dogrulama /system/xbin/su -> UID=0  (uid=0(root) gid=0(root) groups=0(root) context=u:r:kernel:s0
+)
+   40 |   6610 | INFO | MTD.102 | is (bu thread): adim=6(TAMAM) uid=0 errno=0 permissive=1
+   41 |   6610 | INFO | SU.20 | saglik: kernel_enforce=0 status_sayfasi(ok=1 ver=1 seq=0 enforcing=1)
+   42 |   6610 | INFO | SU.21 |   ayrisma VAR: cekirdek permissive ama status sayfasi hala enforcing diyor. Bu, `selinux_state.enforcing`i DOGRUDAN yazmanin dogal sonucu (cekirdegin status guncelleme yolu atlanir) ve 5.10 rotasinda HER basarili root'ta gorulur. OLCULEN: bu ayrisma ile 12/12 kosumda `adb reboot` TEMIZ gecti (22-25 sn). ANCAK bir kez reboot'u TAMAMEN blokladi (init shutting_down'a kilitlendi) ve kok neden kesinlesmedi. Musteriden "reboot olmuyor" sikayeti gelirse ILK BAKILACAK YER burasidir. Kurtarma: su -c "echo 1 > /proc/sys/kernel/sysrq; echo b > /proc/sysrq-trigger"
+   43 |   6610 | INFO | MTD.84 | TAMAM: uid=0 + su=/data/local/tmp/su (PATH=/system/xbin/su)
+   44 |   6611 | INFO | ENG.05 | v3-statik -> ok (6609 ms)
+TRRESULT ok=1 method=v3-statik phase=su cp=ENG.05 reason=ok ms=6609
